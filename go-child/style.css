@@ -1,6 +1,6 @@
 /*
  Theme Name:   go-child
- Theme URI:    https://joneswaysolutions.com/go-child/
+ Theme URI:    https://github.com/bill7342/child-go-theme
  Description:  Go Child Theme
  Author:       Jonesway Solutions
  Author URI:   https://joneswaysolutions.com
@@ -10,6 +10,11 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  go
+*/
+
+/* 
+The template-tags.php generates the <span> containing the site description with the display-none css class.
+Child theme style.css overrides display-none for all screen sizes.
 */
 
 .has-header-3 .header .header__titles .site-description {
