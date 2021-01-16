@@ -15,7 +15,7 @@
 /* 
 The template-tags.php generates the <span> containing the site description along with the display-none css class.
 Parent theme display-none hides the site description on screens smaller than 600px. Child theme style.css overrides 
-display-none for .site-description on all screen sizes.
+display-none for site-description on all screen sizes.
 */
 
 .site-description {
