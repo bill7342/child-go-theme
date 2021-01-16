@@ -13,10 +13,11 @@
 */
 
 /* 
-The template-tags.php generates the <span> containing the site description with the display-none css class.
-Child theme style.css overrides display-none for all screen sizes.
+The template-tags.php generates the <span> containing the site description along with the display-none css class.
+Parent theme display-none hides the site description on screens smaller than 600px. Child theme style.css overrides 
+display-none for .site-description on all screen sizes.
 */
 
-.has-header-3 .header .header__titles .site-description {
+.site-description {
     display: block !important;
 }
