@@ -1,0 +1,17 @@
+/*
+ Theme Name:   go-child
+ Theme URI:    https://joneswaysolutions.com/go-child/
+ Description:  Go Child Theme
+ Author:       Jonesway Solutions
+ Author URI:   https://joneswaysolutions.com
+ Template:     go
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  go
+*/
+
+.has-header-3 .header .header__titles .site-description {
+    display: block !important;
+}
